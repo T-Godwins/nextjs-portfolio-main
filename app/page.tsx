@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
-import GoogleAnalytics from "./components/google";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 import Head from "next/head";
 
 const navigation = [
