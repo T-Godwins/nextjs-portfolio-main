@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
+import GoogleAnalytics from "./components/google";
+import Head from "next/head";
 
 const navigation = [
   { name: "About Me", href: "/about" },
@@ -10,6 +12,10 @@ const navigation = [
 
 export default function Home() {
   return (
+    <>
+    <head>
+        <GoogleAnalytics />
+    </head>
     <div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-blue-600/20 to-black">
       <nav className="my-16 animate-fade-in">
         <ul className="flex items-center justify-center gap-10">
@@ -40,6 +46,7 @@ export default function Home() {
         </h2>
       </div>
     </div>
+    </>
   );
 
 }
