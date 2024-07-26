@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description: "Welcome to my portfolio. ",
   openGraph: {
-    title: "chronark.com",
+    title: "godwins.site",
     description:
       "Data and Information Fellow at Wofford College and Software Engineering Fellow at Headstarter.",
     url: "https://godwins.site",
