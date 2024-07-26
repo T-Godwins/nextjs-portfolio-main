@@ -36,7 +36,7 @@ export default function About() {
                                         width={250}
                                         height={250}
                                         className="rounded-full"
-                                        alt="Headshot"
+                                        alt="Godwins Tuyishime Headshot"
                                     />
                                 </div>
                                 <p className="text-white text-lg p-5 text-left">
@@ -77,7 +77,7 @@ export default function About() {
                                                 width={118}
                                                 height={160}
                                                 className="rounded-lg cursor-pointer"
-                                                alt="Bygwins Instagram"
+                                                alt="Gdowins Tuyishime Bygwins Instagram"
                                             />
                                         </div>
                                         <div className="flex justify-center">
@@ -86,7 +86,7 @@ export default function About() {
                                                 width={160}
                                                 height={160}
                                                 className="rounded-lg"
-                                                alt="Soccer"
+                                                alt="Godwins Tuyishime playingSoccer"
                                             />
                                         </div>
                                     </div>
