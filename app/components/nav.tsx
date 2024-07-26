@@ -46,6 +46,12 @@ export const Navigation: React.FC = () => {
 						>
 							Contact
 						</Link>
+						<Link
+							href="https://drive.google.com/file/d/168XfY4fgx6ERkzLJKtzPMrg_eiRtVfQ6/view"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							Resume
+						</Link>
 					</div>
 
 					<Link
@@ -54,6 +60,7 @@ export const Navigation: React.FC = () => {
 					>
 						<ArrowLeft className="w-6 h-6 " />
 					</Link>
+					
 				</div>
 			</div>
 		</header>

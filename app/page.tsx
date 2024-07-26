@@ -7,7 +7,8 @@ import Head from "next/head";
 const navigation = [
   { name: "About Me", href: "/about" },
   { name: "Projects", href: "/projects" },
-  { name: "Contact", href: "/contact" },
+  { name: "Contact", href: "/contact" }, 
+  { name: "Resume", href: "https://drive.google.com/file/d/168XfY4fgx6ERkzLJKtzPMrg_eiRtVfQ6/view" }
 ];
 
 export default function Home() {
