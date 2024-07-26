@@ -27,7 +27,7 @@ export default function About() {
                     </div>
                     <div className="w-full h-px bg-zinc-800" />
                     <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2">
-                        <Card>
+                        <Card key="brief bio">
                             <div className="flex flex-col items-center justify-center text-center">
                                 <h1 className="text-5xl text-white p-5">Who am I?</h1>
                                 <div className="p-1">
@@ -49,7 +49,7 @@ export default function About() {
                             </div>
                         </Card>
                         <div className="flex flex-col w-full gap-8 mx-auto lg:mx-0">
-                            <Card>
+                            <Card key="skills">
                                 <div className="flex flex-col justify-center">
                                     <h1 className="text-3xl text-white p-5 pb-0 text-center">Skills</h1>
                                     <div className="text-white text-xl p-5 pt-0 text-left">
@@ -67,24 +67,28 @@ export default function About() {
                                     </div>
                                 </div>
                             </Card>
-                            <Card>
+                            <Card key="hobbies">
                                 <div className="flex flex-col items-center justify-center text-center">
                                     <h1 className="text-3xl text-white p-5">Hobbies</h1>
-                                    <div className="grid grid-cols-1 gap-5 mx-auto lg:grid-cols-2 p-5">
-                                        <Image
-                                            src="/bygwins.png"
-                                            width={118}
-                                            height={160}
-                                            className="rounded-lg cursor-pointer"
-                                            alt="Bygwins Instagram"
-                                        />
-                                        <Image
-                                            src="/soccer.jpeg"
-                                            width={160}
-                                            height={160}
-                                            className="rounded-lg"
-                                            alt="Soccer"
-                                        />
+                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-auto lg:grid-cols-2 p-5">
+                                    <div className="flex justify-center">
+                                            <Image
+                                                src="/bygwins.png"
+                                                width={118}
+                                                height={160}
+                                                className="rounded-lg cursor-pointer"
+                                                alt="Bygwins Instagram"
+                                            />
+                                        </div>
+                                        <div className="flex justify-center">
+                                            <Image
+                                                src="/soccer.jpeg"
+                                                width={160}
+                                                height={160}
+                                                className="rounded-lg"
+                                                alt="Soccer"
+                                            />
+                                        </div>
                                     </div>
                                     <p className="text-white text-xl p-5">
                                         I enjoy <Link
