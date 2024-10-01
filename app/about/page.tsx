@@ -34,7 +34,7 @@ export default function About() {
                                     <Image
                                         src="/Headshot.jpg"
                                         width={250}
-                                        height={250}
+                                        height={300}
                                         className="rounded-full"
                                         alt="Godwins Tuyishime Headshot"
                                     />
