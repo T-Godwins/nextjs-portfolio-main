@@ -33,7 +33,7 @@ export default function About() {
                                 <div className="p-1">
                                     <Image
                                         src="/Headshot.jpg"
-                                        width={250}
+                                        width={200}
                                         height={300}
                                         className="rounded-full"
                                         alt="Godwins Tuyishime Headshot"
