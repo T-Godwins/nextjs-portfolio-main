@@ -55,14 +55,14 @@ export default function About() {
                                     <div className="text-white text-xl p-5 pt-0 text-left">
                                         <h2>Languages and Tools:</h2>
                                         <ul className="list-disc list-inside p-3">
-                                            <li>Python, C++, JavaScript, TypeScript, CSS, HTML</li>
+                                            <li>Python, SQL, C++, JavaScript, TypeScript, CSS, HTML</li>
                                             <li>ReactJS, NodeJS, NextJS, Tableau</li>
                                         </ul>
                                     </div>
                                     <div className="text-white text-xl p-5 pt-0 text-left">
                                         <h2>Certifications:</h2>
                                         <ul className="list-disc list-inside p-3">
-                                            <li>AWS Certified Cloud Practitioner - In Progress</li>
+                                            <li>AWS Certified Cloud Practitioner - 2024</li>
                                         </ul>
                                     </div>
                                 </div>
